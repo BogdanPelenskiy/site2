@@ -1,0 +1,293 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+.head_foto {
+	width: 179px;
+	height: 50px;
+	padding: 50px 0 0 70px;
+}
+
+.text_1 {
+	font-family: Nunito;
+	font-size: 20px;
+	line-height: 14px;
+	font-weight: 600;
+	letter-spacing: 0.015em;
+	color: #4497f3;
+	margin: 10px 0 0 800px;
+}
+.text_2 {
+	font-family: Nunito;
+	font-size: 20px;
+	line-height: 14px;
+	font-weight: 400;
+	letter-spacing: 0.015em;
+	color: #bab8b8;
+	margin: -13px 0 0 870px;
+}
+
+.text_3 {
+	font-family: Nunito;
+	font-size: 20px;
+	line-height: 14px;
+	font-weight: 400;
+	letter-spacing: 0.015em;
+	color: #bab8b8;
+	margin: -13px 0 0 940px;
+}
+
+.text_4 {
+	font-family: Nunito;
+	font-size: 20px;
+	line-height: 14px;
+	font-weight: 400;
+	letter-spacing: 0.015em;
+	color: #bab8b8;
+	margin: -13px 0 0 1060px;
+}
+.text_5 {
+	font-family: NunitoSans;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	color: #3984f3;
+	margin: 2px 0 0 15px;
+}
+.border_text_5 {
+	width: 100px;
+	height: 50px;
+	border: 3px solid #3984f3;
+	margin: -30px 0 0 1140px;
+}
+.head_text_2 {
+	font-family: NunitoSans;
+	font-size: 75px;
+	line-height: 80px;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	color: #091e40;
+	display: block;
+	width: 517px;
+	margin: 220px 0 0 80px;
+}
+.head_text_3 {
+	font-family: NunitoSans;
+	font-size: 22px;
+	line-height: 35px;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	color: #81858e;
+	width: 517px;
+	height: 90px;
+	margin: 20px 0 0 80px;
+}
+
+.butoon_1 {
+	width: 170px;
+	height: 57px;
+	background-color: #3984f3;
+	margin: 20px 0 0 80px;
+}
+
+.text_butoon {
+	font-family: NunitoSans;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	color: #ffffff;
+}
+
+.foto_2 {
+	margin: -365px 0 0 513px;
+	width: 750px;
+	height: 698px;
+}
+
+.foto__1 {
+	margin: 200px 0 0 0;
+	height: 400px;
+}
+
+.foto__2 {
+	height: 400px;
+	margin: 110px 0 0 20px;
+}
+.foto__3 {
+	margin: 200px 0 0 20px;
+	height: 400px;
+}
+
+.stars {
+	margin: 580px 0 0 10px;
+}
+
+.stars__2 {
+	margin: -630px 0 0 200px;
+}
+
+.text_in_foto {
+	font-family: NunitoSans;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	color: #a0a0a0;
+	display: block;
+	margin: -30px 0 0 390px;
+}
+.text_in_foto1 {
+	font-family: NunitoSans;
+	font-size: 17px;
+	line-height: 42px;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	color: #ffffff;
+	display: block;
+	margin: -20px 0 0 -50px;
+}
+.text_in_foto2 {
+	font-family: NunitoSans;
+	font-size: 17px;
+	line-height: 42px;
+	font-weight: 400.01em;
+	color: #ffffff;
+	display: block;
+	margin: -135px 0 0 210px;
+}
+.text_in_foto3 {
+	font-family: NunitoSans;
+	font-size: 17px;
+	line-height: 42px;
+	font-weight: 400.01em;
+	color: #ffffff;
+	display: block;
+	margin: 45px 0 0 540px;
+}
+
+.ttext_1 {
+	font-family: NunitoSans;
+	font-size: 40px;
+	line-height: 62px;
+	font-weight: 600;
+	color: #091e40;
+	display: block;
+	margin: -410px 0 0 830px;
+}
+.ttext_2 {
+	font-family: NunitoSans;
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: 400;
+	color: #81858e;
+	display: block;
+	margin: 30px 0 0 830px;
+}
+.tt {
+	width: 78px;
+	height: 6px;
+	background-color: #3984f3;
+	margin: 30px 0 0 830px;
+}
+.ttt2 {
+	width: 202px;
+	height: 57px;
+	background-color: #3984f3;
+	margin: 10px 0 0 840px;
+}
+.tt2_text {
+	font-family: NunitoSans;
+	font-size: 18px;
+	line-height: 42px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.tttext_1 {
+	font-family: NunitoSans;
+	font-size: 30px;
+	line-height: 61px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	color: #091e40;
+	display: block;
+	margin: 40px 0 0 550px;
+}
